@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.vysp3r.ProtonPlus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-19 22:30+0200\n"
+"POT-Creation-Date: 2026-08-25 12:21+0200\n"
 "PO-Revision-Date: 2026-08-11 12:51+0000\n"
 "Last-Translator: Silence <1059022187@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
@@ -326,7 +326,7 @@ msgstr "%d秒"
 
 #. System Page
 #: src/globals.vala:31 src/widgets/mangohud/mangohud-extras-page.vala:74
-#: src/widgets/preferences/preferences-dialog.vala:383
+#: src/widgets/preferences/preferences-dialog.vala:352
 #: src/widgets/preferences/preferences-theme-row.vala:15
 msgid "System"
 msgstr "系统"
@@ -2120,7 +2120,7 @@ msgstr "系统默认"
 #: src/widgets/games/launch-options-editor/launch-options-option-catalog.vala:1251
 #: src/widgets/games/launch-options-editor/launch-options-option-catalog.vala:1252
 #: src/widgets/games/launch-options-editor/launch-options-option-catalog.vala:1253
-#: src/widgets/preferences/preferences-dialog.vala:436
+#: src/widgets/preferences/preferences-dialog.vala:405
 msgid "Gamescope"
 msgstr "Gamescope"
 
@@ -2131,7 +2131,7 @@ msgstr "Gamescope"
 #: src/widgets/games/launch-options-editor/launch-options-option-catalog.vala:1257
 #: src/widgets/games/launch-options-editor/launch-options-option-catalog.vala:1258
 #: src/widgets/games/launch-options-editor/launch-options-option-catalog.vala:1259
-#: src/widgets/preferences/preferences-dialog.vala:439
+#: src/widgets/preferences/preferences-dialog.vala:408
 msgid "ScopeBuddy"
 msgstr "ScopeBuddy"
 
@@ -2682,6 +2682,7 @@ msgstr "自动检测"
 #: src/widgets/games/launch-options-editor/launch-options-editor-resolution-field.vala:38
 #: src/widgets/mangohud/mangohud-presets-page.vala:26
 #: src/widgets/mangohud/mangohud-presets-page.vala:54
+#: src/widgets/preferences/preferences-dialog.vala:463
 msgid "Custom"
 msgstr "自定义"
 
@@ -3601,12 +3602,12 @@ msgstr "保持无法识别、带引号及不透明的 Shell 内容与加载时�
 #. Advanced Page
 #: src/widgets/games/launch-options-editor/launch-options-presentation-registry.vala:40
 #: src/widgets/mangohud/mangohud-box.vala:74
-#: src/widgets/preferences/preferences-dialog.vala:269
+#: src/widgets/preferences/preferences-dialog.vala:238
 msgid "Advanced"
 msgstr "高级"
 
 #: src/widgets/games/launch-options-editor/launch-options-presentation-registry.vala:42
-#: src/widgets/preferences/preferences-dialog.vala:362
+#: src/widgets/preferences/preferences-dialog.vala:331
 msgid "Experimental"
 msgstr "实验性"
 
@@ -4017,7 +4018,7 @@ msgid "Tools"
 msgstr "工具"
 
 #: src/widgets/main/main-box.vala:75
-#: src/widgets/preferences/preferences-dialog.vala:430
+#: src/widgets/preferences/preferences-dialog.vala:399
 msgid "MangoHud"
 msgstr "MangoHud"
 
@@ -4508,7 +4509,7 @@ msgid "Media Info"
 msgstr "媒体信息"
 
 #: src/widgets/mangohud/mangohud-extras-page.vala:130
-#: src/widgets/preferences/preferences-dialog.vala:297
+#: src/widgets/preferences/preferences-dialog.vala:266
 msgid "Network"
 msgstr "网络"
 
@@ -5045,170 +5046,154 @@ msgstr "显示不再积极维护的旧版本兼容工具。"
 
 #: src/widgets/preferences/preferences-dialog.vala:127
 #, fuzzy
-msgid "Custom Steam directory"
-msgstr "自定义游戏参数"
-
-#: src/widgets/preferences/preferences-dialog.vala:131
-#: src/widgets/preferences/preferences-dialog.vala:163
-msgid "No custom directory selected"
-msgstr ""
-
-#: src/widgets/preferences/preferences-dialog.vala:135
-#: src/widgets/preferences/preferences-dialog.vala:137
-msgid "Select custom Steam directory"
-msgstr ""
-
-#: src/widgets/preferences/preferences-dialog.vala:143
-#: src/widgets/preferences/preferences-dialog.vala:145
-#, fuzzy
-msgid "Clear custom Steam directory"
-msgstr "自定义游戏参数"
+msgid "Custom launcher installations"
+msgstr "列出启动器或已安装的运行器"
 
 #. Launchers Page
-#: src/widgets/preferences/preferences-dialog.vala:170
+#: src/widgets/preferences/preferences-dialog.vala:139
 msgid "Launchers"
 msgstr "启动器"
 
-#: src/widgets/preferences/preferences-dialog.vala:204
+#: src/widgets/preferences/preferences-dialog.vala:173
 msgid "Default compatibility tool"
 msgstr "默认兼容性工具"
 
-#: src/widgets/preferences/preferences-dialog.vala:205
+#: src/widgets/preferences/preferences-dialog.vala:174
 msgid "The compatibility tool games will use by default"
 msgstr "游戏将会默认使用的兼容性工具"
 
-#: src/widgets/preferences/preferences-dialog.vala:230
+#: src/widgets/preferences/preferences-dialog.vala:199
 msgid "Selected profile"
 msgstr "选择的个人资料"
 
-#: src/widgets/preferences/preferences-dialog.vala:231
+#: src/widgets/preferences/preferences-dialog.vala:200
 msgid "Currently selected profile for Steam"
 msgstr "当前选择的 Steam 个人资料"
 
-#: src/widgets/preferences/preferences-dialog.vala:275
+#: src/widgets/preferences/preferences-dialog.vala:244
 msgid "API Tokens"
 msgstr "API 令牌"
 
-#: src/widgets/preferences/preferences-dialog.vala:276
+#: src/widgets/preferences/preferences-dialog.vala:245
 msgid "Optional tokens increase GitHub and GitLab request limits"
 msgstr ""
 
-#: src/widgets/preferences/preferences-dialog.vala:305
+#: src/widgets/preferences/preferences-dialog.vala:274
 msgid "Proxy URL"
 msgstr "代理 URL"
 
-#: src/widgets/preferences/preferences-dialog.vala:308
+#: src/widgets/preferences/preferences-dialog.vala:277
 msgid "Example: http://127.0.0.1:7890 or socks5://127.0.0.1:1080"
 msgstr "如：http://127.0.0.1:7890 或 socks5://127.0.0.1:1080"
 
-#: src/widgets/preferences/preferences-dialog.vala:315
-#: src/widgets/preferences/preferences-dialog.vala:511
+#: src/widgets/preferences/preferences-dialog.vala:284
+#: src/widgets/preferences/preferences-dialog.vala:524
 msgid "KB/s"
 msgstr ""
 
-#: src/widgets/preferences/preferences-dialog.vala:316
-#: src/widgets/preferences/preferences-dialog.vala:510
+#: src/widgets/preferences/preferences-dialog.vala:285
+#: src/widgets/preferences/preferences-dialog.vala:523
 msgid "KiB/s"
 msgstr ""
 
-#: src/widgets/preferences/preferences-dialog.vala:318
+#: src/widgets/preferences/preferences-dialog.vala:287
 #, fuzzy
 msgid "Download speed unit"
 msgstr "已开始下载"
 
-#: src/widgets/preferences/preferences-dialog.vala:319
+#: src/widgets/preferences/preferences-dialog.vala:288
 msgid "Choose whether the limit uses decimal or binary kilobytes"
 msgstr ""
 
-#: src/widgets/preferences/preferences-dialog.vala:337
+#: src/widgets/preferences/preferences-dialog.vala:306
 #, fuzzy
 msgid "Download speed limit"
 msgstr "已开始下载"
 
-#: src/widgets/preferences/preferences-dialog.vala:341
+#: src/widgets/preferences/preferences-dialog.vala:310
 msgid "This limit is shared across all active downloads."
 msgstr ""
 
-#: src/widgets/preferences/preferences-dialog.vala:367
+#: src/widgets/preferences/preferences-dialog.vala:336
 msgid "Preview features"
 msgstr "预览功能"
 
-#: src/widgets/preferences/preferences-dialog.vala:368
+#: src/widgets/preferences/preferences-dialog.vala:337
 msgid "Enable experimental features for early testing"
 msgstr "启用实验性功能以便尽早测试"
 
-#: src/widgets/preferences/preferences-dialog.vala:374
+#: src/widgets/preferences/preferences-dialog.vala:343
 msgid "Maintenance"
 msgstr "维护"
 
-#: src/widgets/preferences/preferences-dialog.vala:375
+#: src/widgets/preferences/preferences-dialog.vala:344
 msgid "Refresh app data or clear cached files"
 msgstr ""
 
-#: src/widgets/preferences/preferences-dialog.vala:389
+#: src/widgets/preferences/preferences-dialog.vala:358
 msgid "Software Environment"
 msgstr "软件环境"
 
-#: src/widgets/preferences/preferences-dialog.vala:394
+#: src/widgets/preferences/preferences-dialog.vala:363
 #: src/widgets/preferences/preferences-theme-row.vala:18
 msgid "SteamOS"
 msgstr "SteamOS"
 
-#: src/widgets/preferences/preferences-dialog.vala:394
-#: src/widgets/preferences/preferences-dialog.vala:397
+#: src/widgets/preferences/preferences-dialog.vala:363
+#: src/widgets/preferences/preferences-dialog.vala:366
 #: src/widgets/tools/tools-stl-release-row.vala:170
 msgid "Yes"
 msgstr "是"
 
-#: src/widgets/preferences/preferences-dialog.vala:394
-#: src/widgets/preferences/preferences-dialog.vala:397
+#: src/widgets/preferences/preferences-dialog.vala:363
+#: src/widgets/preferences/preferences-dialog.vala:366
 #: src/widgets/tools/tools-stl-release-row.vala:169
 msgid "No"
 msgstr "否"
 
-#: src/widgets/preferences/preferences-dialog.vala:397
+#: src/widgets/preferences/preferences-dialog.vala:366
 msgid "Flatpak"
 msgstr "Flatpak"
 
-#: src/widgets/preferences/preferences-dialog.vala:401
+#: src/widgets/preferences/preferences-dialog.vala:370
 msgid "Hardware"
 msgstr "硬件"
 
-#: src/widgets/preferences/preferences-dialog.vala:413
+#: src/widgets/preferences/preferences-dialog.vala:382
 #, fuzzy
 msgid "CPU Features"
 msgstr "CPU 温度"
 
-#: src/widgets/preferences/preferences-dialog.vala:414
+#: src/widgets/preferences/preferences-dialog.vala:383
 #, fuzzy
 msgid "None detected"
 msgstr "自动检测"
 
-#: src/widgets/preferences/preferences-dialog.vala:419
+#: src/widgets/preferences/preferences-dialog.vala:388
 msgid "Dependencies"
 msgstr "依赖项"
 
-#: src/widgets/preferences/preferences-dialog.vala:424
+#: src/widgets/preferences/preferences-dialog.vala:393
 msgid "Protontricks"
 msgstr "Protontricks"
 
-#: src/widgets/preferences/preferences-dialog.vala:427
+#: src/widgets/preferences/preferences-dialog.vala:396
 msgid "Protontricks (Flatpak)"
 msgstr "Protontricks (Flatpak)"
 
-#: src/widgets/preferences/preferences-dialog.vala:433
+#: src/widgets/preferences/preferences-dialog.vala:402
 msgid "MangoHud (Flatpak)"
 msgstr "MangoHud (Flatpak)"
 
-#: src/widgets/preferences/preferences-dialog.vala:442
+#: src/widgets/preferences/preferences-dialog.vala:411
 msgid "Feral Gamemode"
 msgstr "Feral Gamemode"
 
-#: src/widgets/preferences/preferences-dialog.vala:446
+#: src/widgets/preferences/preferences-dialog.vala:415
 msgid "Detected Launchers"
 msgstr "检测到的启动器"
 
-#: src/widgets/preferences/preferences-dialog.vala:478
+#: src/widgets/preferences/preferences-dialog.vala:447
 #: src/widgets/tools/tools-box.vala:189
 #: src/widgets/tools/tools-group-box.vala:749
 #: src/widgets/tools/tools-release-row.vala:779
@@ -5216,11 +5201,33 @@ msgstr "检测到的启动器"
 msgid "Installed"
 msgstr "已安装"
 
-#: src/widgets/preferences/preferences-dialog.vala:479
+#: src/widgets/preferences/preferences-dialog.vala:448
 msgid "Not installed"
 msgstr "未安装"
 
-#: src/widgets/preferences/preferences-dialog.vala:512
+#: src/widgets/preferences/preferences-dialog.vala:463
+#, fuzzy
+msgid "directory"
+msgstr "打开工具目录"
+
+#: src/widgets/preferences/preferences-dialog.vala:467
+#: src/widgets/preferences/preferences-dialog.vala:499
+msgid "No custom directory selected"
+msgstr ""
+
+#: src/widgets/preferences/preferences-dialog.vala:471
+#: src/widgets/preferences/preferences-dialog.vala:473
+#, fuzzy
+msgid "Select custom directory"
+msgstr "自定义游戏参数"
+
+#: src/widgets/preferences/preferences-dialog.vala:479
+#: src/widgets/preferences/preferences-dialog.vala:481
+#, fuzzy
+msgid "Clear custom directory"
+msgstr "自定义游戏参数"
+
+#: src/widgets/preferences/preferences-dialog.vala:525
 #, c-format
 msgid "Maximum total speed in %s for all downloads. Set to 0 for unlimited."
 msgstr ""
@@ -5862,6 +5869,10 @@ msgstr ""
 "过早退出程序或许会引发问题。"
 
 #, fuzzy
+#~ msgid "Custom Steam directory"
+#~ msgstr "自定义游戏参数"
+
+#, fuzzy
 #~ msgid "Used By"
 #~ msgstr "使用者"
 
@@ -5991,9 +6002,6 @@ msgstr ""
 #~ "版本：%s\n"
 #~ "这是一个滚动更新版本。\n"
 #~ "启用自动更新后，它将始终更新到最新可用版本。"
-
-#~ msgid "Open tool directory"
-#~ msgstr "打开工具目录"
 
 #~ msgid "Nothing"
 #~ msgstr "无"
